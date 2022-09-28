@@ -1,0 +1,13 @@
+header {
+  background-color: dodgerblue;
+  padding: 13px 0px;
+  font-size: 0.9125rem;
+}
+header h5 {
+  text-align: center;
+  color: white;
+  font-size: 1.25rem;
+  margin: 0;
+
+  font-weight: 500;
+}
