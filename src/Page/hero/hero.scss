@@ -1,0 +1,12 @@
+@import "../../Design/global.scss";
+.card-wrapper {
+  color: white;
+  background-color: #2b2d42;
+  padding-top: 50px;
+  @include breakpoint-up(sm) {
+    height: 100vh;
+  }
+}
+.container {
+  width: auto !important;
+}
