@@ -1,7 +1,7 @@
 import Card from "../../components/card/Card";
 import Header from "../../components/header/Header";
 import Data from "../../store/data";
-import "./hero.css";
+import "./hero.scss";
 const Hero = () => {
   const cardMap = Data.map((t) => <Card key={t.id} world={t} />);
   return (
